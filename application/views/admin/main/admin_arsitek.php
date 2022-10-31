@@ -33,7 +33,8 @@
                         <h6><?= $ad['perusahaan'] ?></h6>
                         <div class="row justify-content-center mt-1">
                             <div class="col-sm-3">
-                                <a href="" class="btn btn-warning"><i class="bi bi-brush"></i></a>
+                                <a href="<?= base_url('halaman/edit_arsitek/') . $ad['id_arsitek'] ?>"
+                                    class="btn btn-warning"><i class="bi bi-brush"></i></a>
                             </div>
                             <div class="col-sm-3">
                                 <!-- Vertically centered Modal -->
@@ -43,7 +44,11 @@
                                 </button>
                             </div>
                             <div class="col-sm-3">
-                                <a href="" class="btn btn-success"><i class="bi bi-eye"></i></a>
+                                <!-- Extra Large Modal -->
+                                <button type="button" class="btn btn-success" data-bs-toggle="modal"
+                                    data-bs-target="#Detail<?= $ad['id_arsitek'] ?>">
+                                    <i class="bi bi-eye"></i>
+                                </button>
                             </div>
                         </div>
                     </div>

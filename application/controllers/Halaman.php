@@ -35,6 +35,7 @@ class Halaman extends CI_Controller
         $this->load->view('admin/partial/admin_sidebar', $data);
         $this->load->view('admin/main/admin_arsitek', $data);
         $this->load->view('admin/modal/modal_del_arsitek', $data);
+        $this->load->view('admin/modal/modal_detail_arsitek', $data);
         $this->load->view('admin/partial/admin_footer', $data);
     }
     public function add_arsitek()
@@ -47,6 +48,20 @@ class Halaman extends CI_Controller
         $this->load->view('admin/partial/admin_sidebar', $data);
         $this->load->view('admin/main/admin_add_arsitek', $data);
         $this->load->view('admin/modal/modal_del_arsitek', $data);
+        $this->load->view('admin/partial/admin_footer', $data);
+    }
+    public function edit_arsitek($id)
+    {
+        $data['page'] = "arsitek";
+        $data['title'] = "Edit Arsitek";
+
+        $data['a_data'] = $this->M_Architect->architect_data_byid($id);
+
+        $this->load->view('admin/partial/admin_header', $data);
+        $this->load->view('admin/partial/admin_topbar', $data);
+        $this->load->view('admin/partial/admin_sidebar', $data);
+        $this->load->view('admin/main/admin_edit_arsitek', $data);
+        // $this->load->view('admin/modal/modal_del_arsitek', $data);
         $this->load->view('admin/partial/admin_footer', $data);
     }
     public function paket()
