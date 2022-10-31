@@ -26,7 +26,7 @@
                                 <div class="d-flex align-items-center">
                                     <div
                                         class="card-icon rounded-circle d-flex align-items-center justify-content-center">
-                                        <i class="bi bi-cart"></i>
+                                        <i class="bi bi-people"></i>
                                     </div>
                                     <div class="ps-3">
                                         <h6>16 Orang</h6>
@@ -46,7 +46,7 @@
                                 <div class="d-flex align-items-center">
                                     <div
                                         class="card-icon rounded-circle d-flex align-items-center justify-content-center">
-                                        <i class="bi bi-currency-dollar"></i>
+                                        <i class="bi bi-person-lines-fill"></i>
                                     </div>
                                     <div class="ps-3">
                                         <h6><?= $tot_arsitek->total_arsitek ?> Arsitek</h6>
@@ -67,7 +67,7 @@
                                 <div class="d-flex align-items-center">
                                     <div
                                         class="card-icon rounded-circle d-flex align-items-center justify-content-center">
-                                        <i class="bi bi-people"></i>
+                                        <i class="bi bi-building"></i>
                                     </div>
                                     <div class="ps-3">
                                         <h6><?= $tot_paket->total_paket ?> Paket Desain</h6>

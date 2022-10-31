@@ -24,6 +24,12 @@
                     <i class="bi bi-search"></i>
                 </a>
             </li><!-- End Search Icon-->
+            <li class="nav-item d-block pe-auto">
+                <a class="nav-link nav-icon " href="<?= base_url('landing') ?>">
+                    <img
+                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAABsElEQVRIS7WVYVHEQAyF7xyAg+IAFFAUAA6KA1AAKAAHHAoABdQBOKAoAAfwvs6mE7a73eVHM5PpXTfJS16y6XazsmxXjr+pAWiVxKmUZxMSGvR8l75In5eSXAI4lOO19KxQJUDnUkBnkgPoZHkn3SsEJ6hVdaXf97F9CuAyBC/EHik6knr7GUgMQDZvFZn3snmU7kIWrZ6v4TeggI8SA2CE8ZLkaLVKBjkfpABo5lMhuNGSM/vQASxcWHU+mwe97EJ5TFAsvV54WlIg+BOH0WWy/lAE9wTm4FhKyV5q7gz+xPmW7scAVh78DVLG1IPUADDWXzkADjAwABLwIP8BmJL3TkbRiU57x81PRJX9xeY2sjWKYGCcpFST48uSA8B/ChRQOz2zTbYxnRoUnOJexAVZktDLPbJBGZdgzKvRxE6hEpMlEKog2KcUO+4KNJPoDKDRO6YJYVz9Ki5Vgg9B8ests9Kyo4k3rpKlfmAW22c/OH5DUjIZcYuhMCVkTvBdqGKyKX1wmIjU2vAgJMDumTaoP6y5PJ0cWB2ttAkZkvEQqqJPY0NTUgOQ8616vzrALwmDYBlXU6bdAAAAAElFTkSuQmCC" />
+                </a>
+            </li><!-- End Search Icon-->
             <li class="nav-item dropdown pe-3">
 
                 <a class="nav-link nav-profile d-flex align-items-center pe-0" href="#" data-bs-toggle="dropdown">
